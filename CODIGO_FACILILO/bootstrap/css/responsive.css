@@ -8,9 +8,9 @@
 
 /* Pantallas pequeñas */
 @media (min-width: 576px) {
-	.header-area .main-menu .navbar .nav-link {
+	/* .header-area .main-menu .navbar .nav-link {
 		padding: 5rem 1rem;
-	}
+	} */
 
 	.card-container .card {
 		max-width: 240px;
