@@ -1,0 +1,52 @@
+:root {
+	--blue-navy:#05205d;
+	--blue-light: #3155a7;
+	--brown-leather: #ab987a;
+	--light-coral: #e7dbd4;
+	--white-egg: #f5f5f5;
+}
+
+/* Pantallas pequeñas */
+@media (min-width: 576px) {
+	/* .header-area .main-menu .navbar .nav-link {
+		padding: 5rem 1rem;
+	} */
+
+	.card-container .card {
+		max-width: 240px;
+	}
+}
+
+/* Pantallas medianas - Tablets */
+
+@media (min-width: 768px) {
+	.header-area .main-menu .navbar .nav-link {
+		font-size: 16px;
+	}
+
+	.main-info {
+		padding-bottom: 42px;
+		margin-bottom: 78px;
+	}
+
+	.main-info .container {
+		bottom: -120px;
+	}
+
+	.card-container .card {
+		max-width: 360px;
+	}
+}
+
+/* Pantallas grandes portatiles */
+@media (min-width: 992px){
+	.card-container .card {
+		max-width: 240px;
+	}
+
+}
+
+/* Pantallas grandes monitores */
+@media (min-width: 1200px){
+
+}
